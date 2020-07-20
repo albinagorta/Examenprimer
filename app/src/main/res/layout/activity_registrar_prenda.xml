@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RegistrarPrendaActivity">
+
+    <EditText
+        android:id="@+id/txtcod_r"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#ffff"
+        android:layout_marginBottom="10dp"
+        android:text=""
+        android:inputType="text"
+        android:hint="Ingresar codigo" />
+
+    <EditText
+        android:id="@+id/txtnom_r"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#ffff"
+        android:layout_marginBottom="10dp"
+        android:text=""
+        android:inputType="text"
+        android:hint="Ingresar Nombre"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+
+    <Spinner
+        android:id="@+id/spinnertalla"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:entries="@array/listatallas" />
+
+    <EditText
+        android:id="@+id/txtprecio_r"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="text"
+        android:background="#ffff"
+        android:hint="ingresar precio"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/txtcant_r"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="text"
+        android:background="#ffff"
+        android:hint="ingresar cantidad"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/txtstock_r"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:text=""
+        android:inputType="text"
+        android:background="#ffff"
+        android:hint="Ingresar stock" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:onClick="Registrar"
+        android:layout_marginBottom="10dp"
+        android:text="registrar" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:onClick="regresar_de_registrar"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="regresar"
+        />
+</LinearLayout>

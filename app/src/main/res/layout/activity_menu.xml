@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:onClick="Ir_a_Registrar"
+            android:layout_marginTop="10dp"
+            android:text="Agregar Prenda"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:onClick="Ir_a_Listar"
+            android:text="Catalogo prendas"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:onClick="Ir_a_Listar_carrito"
+            android:text="Carrito pedidos"/>
+
+</LinearLayout>
